@@ -20,7 +20,7 @@ set -x
 VERSION=`mvn help:evaluate -Dexpression=project.version | grep "^[^\[]"`
 set +x
 
-curl -v --user ranmadrev@gmail.com:Y^u7i8o9 --data-binary target/${NAME}-${VERSION}.jar -X PUT "https://rantestjfrogartifactory.jfrog.io/artifactory/default-generic-local/target/${NAME}-${VERSION}.jar"
+curl -v --user ranmadrev7@gmail.com:Y^u7i8o9 --data-binary target/${NAME}-${VERSION}.jar -X PUT "https://jfrogranjithtestartifactory.jfrog.io/artifactory/default-generic-local/target/${NAME}-${VERSION}.jar"
 
 echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
